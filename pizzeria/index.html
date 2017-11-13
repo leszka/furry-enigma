@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content=" width=device-width,initial-scale=1 " />
+   <meta name="Pizzeriia Magyarno" content="Zapraszamy w godzinach od 14:00 do 22:00, tel. 3435286478" />
+   <meta name="keywords" content="pizzeria koszęcin, pizza, pizzeria, catering, Koszęcin, obiady, imprezy" />
+   <link rel="stylesheet" href="style.css" type="text/css" />
+   <!--fonts-->
+   <link href='http://fonts.googleapis.com/css?family=Allura&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Amatica+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+   <title>Pizzeriia Magyarno</title>
+   <!--paralax-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script src="parallax.min.js"></script>
+   <!--scrollTo-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="jquery.scrollTo.min.js"></script>
+   <script>
+      jQuery(function ($) {
+         //zresetuj scrolla
+         $.scrollTo(0);
+         $('#link1').click(function () {
+            $.scrollTo($('#maskicrt'), 500);
+         })
+         $('.scrollup').click(function () {
+            $.scrollTo($('body'), 1000);
+         })
+      });
+      jQuery(function ($) {
+         //zresetuj scrolla
+         $.scrollTo(0);
+         $('#link2').click(function () {
+            $.scrollTo($('#imprezykameralne'), 500);
+         })
+         jQuery(function ($) {}); //zresetuj scrolla
+         $.scrollTo(0);
+         $('#link3').click(function () {
+            $.scrollTo($('#catering'), 500);
+         })
+         jQuery(function ($) {}); //zresetuj scrolla
+         $.scrollTo(0);
+         $('#link4').click(function () {
+            $.scrollTo($('#kontakt'), 500);
+         })
+      });
+      //pokaz podczas przewijania
+      $(window).scroll(function () {
+         if ($(this).scrollTop() > 300) $('.scrollup').fadeIn();
+         else $('.scrollup').fadeOut();
+      });
+   </script>
+</head>
+
+<body>
+   <!--logo-->
+   <section class="introduction">
+      <div class="logo">
+         <h1> <b>Pizzeriia Magyarno </b><img src="grafika/pizza.png" alt="pizza"/></h1>
+         <p>Jó étvágyat!-Smacznego!</p>
+      </div>
+      <!--logo-->
+      <!--mobile nav-->
+      <div class="menu-trigger">
+         <a href="tel:+48343284562"><img class="fbb" src="grafika/phone-call.png" alt="zadzwon"></a> <img src="grafika/menu.png" alt="burger"> </div>
+      <!--mobile nav-->
+      <!--scrollup-->
+      <div class="scrollup"></div>
+      <!--scrollup-->
+      <!--nav-->
+      <div class="nav"> <a id="link1" href="#">Menu</a> <a id="link2" href="#imprezykameralne">Imprezy kameralne</a> <a id="link3" href="#catering">Catering</a> <a id="link4" href="#kontakt">Kontakt</a>
+         <a href="https://www.facebook.com/pizzeriamagyarno/" target="_blank" title="Pizzeria Magyarno"><img src="grafika/facebook.png" alt="facebook" /></a>
+      </div>
+      <!--nav-->
+      <!--parallax foto-->
+      <section class="image" style="background-image: url('grafika/pizzaa.jpg');"></section>
+      <!--parallax foto-->
+      <!--first view-->
+      <div class="napisy">
+         <h4>Zapraszamy Państwa<br>
+         od Pon. do Niedz. <br>w godzinach od 14<sup>00</sup>do 22<sup>00</sup>. 
+    
+      Kuchnia czynna do godz 21<sup>30</sup></h4> </div>
+      <div class="promo">
+         <p>Polecamy Karnety Stałego Pizzożercy Przy zebraniu 10 kuponów 1 duża, dowolna pizza GRATIS</p>
+         <br> </div>
+      <!-- plus div promocje
+        <div class="akcja">
+         <br>
+         <p>Serdecznie zapraszamy Państwa
+            <br> wraz ze swoimi pociechami
+            <br> na zabawę w młodego barmana i młoda barmankę!
+            <br>Już w najbliższy czwartek skomponujemy razem
+            <br> niesamowite koktajle bezalkoholowe w przeróżnych smakach!
+            <br>
+            <br><b>Cena zabawy 10 zł</b>
+            <br><img src="grafika/fotod.jpg" alt="" title="Wydarzenie"></p>
+      </div>
+      -->
+   </section>
+   <!--first view-->
+   <!--menu-->
+   <section class="main">
+      <div id="maskicrt">
+         <h1>Menu</h1>
+         <p>&nbsp; &nbsp; Duża &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wielka &nbsp;&nbsp;&nbsp;&nbsp; Familijna
+            <br>L 32cm&nbsp; XL 40cm &nbsp;XXL 50cm </p>
+         <h3> 1.Margherita I</h3>
+         <p><em>sos,ser,zioła</em>
+            <br><b>12zł&nbsp; 15zł&nbsp; 20zł</b></p>
+         <h3>2.Margherita II</h3>
+         <p><em>sos, ser, pomidor, ogórek zielony</em>
+            <br><b>14zł&nbsp; 17zł&nbsp; 21zł</b></p>
+         <h3>3.Enzo</h3>
+         <p><em>sos,ser,szynka</em>
+            <br><b>16zł&nbsp; 22zł &nbsp;26zł</b></p>
+         <h3>4.Hawai</h3>
+         <p><em>sos, ser, szynka, ananas</em>
+            <br><b>15zł &nbsp;20zł&nbsp; 25zł</b></p>
+         <h3>5.Hawai II</h3>
+         <p><em>sos, ser, kurczak, ananas</em>
+            <br><b>24zł&nbsp; 29zł&nbsp; 33zł</b></p>
+         <h3>6.Campo</h3>
+         <p><em>sos, ser, pieczarki, cebula</em>
+            <br><b>14zł&nbsp; 18zł&nbsp; 23zł</b></p>
+         <h3>7.Bari</h3>
+         <p><em>sos, ser salami, szynka, papryczki, cebula</em>
+            <br><b>21zł &nbsp;27zł&nbsp; 33zł</b></p>
+         <h3>8.Magyarno</h3>
+         <p><em>sos, 3 sery, salami, boczek, cebula, papryczki węgierskie, czosnek</em>
+            <br><b>22zł&nbsp; 28zł &nbsp;34zł</b></p>
+         <h3>9.Devilla</h3>
+         <p><em>sos, ser, mięso gyros, papryczki chili, cebula, zioła</em>
+            <br><b>23zł &nbsp;26zł&nbsp; 33zł</b></p>
+         <h3>10.Mexikoi</h3>
+         <p><em>sos, ser,szynka, fasolka, kukurydza, boczek, papryka</em>
+            <br><b>22zł&nbsp; 27zł &nbsp;32zł</b></p>
+         <h3>11.Pampai</h3>
+         <p><em>sos, ser, mięso gyros, papryka, pomidor, cebula</em>
+            <br><b>23zł &nbsp;29zł &nbsp;34zł</b></p>
+         <h3>12.Nezzo I</h3>
+         <p><em>sos, ser,kurczak, por, kukurydza</em>
+            <br><b>24zł&nbsp; 29zł&nbsp;34zł</b></p>
+         <h3>13.Nezzo II</h3>
+         <p><em>sos majonezowy, kurczak, brokuly, ser, zioła</em>
+            <br><b>23zł&nbsp; 29zł &nbsp;33zł</b></p>
+         <h3>14.Nezzo III</h3>
+         <p><em>sos, ser,kurczak, pieczarki, kukurydza</em>
+            <br><b>24zł&nbsp; 29zł &nbsp;34zł</b></p>
+         <h3>15.Vegetarianishe</h3>
+         <p><em>sos, ser, pieczarki, papryka, cebula, kukurydza</em>
+            <br><b>16zł&nbsp; 21zł &nbsp;25zł</b></p>
+         <h3>16.Ungarishe</h3>
+         <p><em>sos, ser, salami, kapusta kiszona, ogórek kiszony, papryka, mięso gyros</em>
+            <br><b>23zł&nbsp; 28zł &nbsp;35zł</b></p>
+         <h3>17.Crazy</h3>
+         <p><em>musztarda, boczek, kiełbasa, ogórek kiszony, ser</em>
+            <br><b>21zł&nbsp; 25zł &nbsp;30zł</b></p>
+         <h3>18.Broccoli</h3>
+         <p><em>sos, pieczarki, brokuły, szynka, feta, ser, por</em>
+            <br><b>22zł&nbsp; 27zł&nbsp; 32zł</b></p>
+         <h3>19.Mallaczka</h3>
+         <p><em>sos, cebula, papryka, tyńczyk, zioła, ser</em>
+            <br><b>18zł &nbsp;26zł &nbsp;30zł</b></p>
+         <h3>20.Olive</h3>
+         <p><em>sos, ser, oliwki, papryka, ogórek zielony,cebula czerwona, mięso gyros</em>
+            <br><b>23zł&nbsp; 28zł &nbsp;34zł</b></p>
+         <h3>21.Schajdi</h3>
+         <p><em>sos, ser, oliwki, papryka, ogórek zielony, cebula czerwona, mięso gyros</em>
+            <br><b>23zł &nbsp;28zł &nbsp;34zł</b></p>
+         <h3>22.Derek</h3>
+         <p><em>sos, ser, szynka, pieczarki</em>
+            <br><b>15zł &nbsp;21zł&nbsp; 25zł</b></p>
+         <div class="men">DODATKI DO PIZZY</div>
+         <p>Warzywa
+            <br><b>2zł &nbsp;3zł &nbsp;4zł</b></p>
+         <p>Mięso, oliwki, tuńczyk, salami, szynka, ser
+            <br><b>4zł&nbsp;5zł &nbsp;6zł</b></p>
+         <p>Sosy: <em> czosnkowy, ostry, pomidorowy </em>
+            <br><b>2zł </b></p><b> Na terenie Koszęcina dowozimy pizzę ZA DARMO!</b>
+         <br>
+         <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"> Cennik dowozów</button>
+            <div id="myDropdown" class="dropdown-content"> Prądy/Cieszowa/Irki/Strzebiń/Zelkot ND/Rzyce 2zł
+               <br>Mochała/Hadra/Wierzbie 3zł
+               <br> Brusiek/Bukowiec/Boronów/Drutarnia/Sadów 4zł
+               <br> Kalety/Kieszki/Piłka/Rusinowice/Zumpy/
+               <br>Grojec/Hucisko 5zł
+               <br> Droniowice 6zł
+               <br> Harbułtowice/Kuczów/Miotek/Truszczyca/Tworóg 7zł
+               <br> Babienica/Chwostek/Psary 8zł
+               <br> Lubliniec/Lubsza 10zł</div>
+         </div>
+         <hr>
+         <div class="nalesniki">
+            <h1>Naleśniki</h1>
+            <p>* Z białym serem,
+               <br>bitą śmietaną i czekoladą <b>7zł</b>
+               <br>* Z nutella 2 szt <b>5zł</b>
+               <br>* Z dżemem i bitą śmietaną <b>7zł</b>
+               <br>* Z owocami, bitą śmietaną
+               <br>i polewą czekoladową <b>8zł</b> </p>
+            <h1>Naleśniki Obiadowe</h1>
+            <p>* Z mięsem gyros, węgierską papryczką <b>10zł</b>
+               <br> *Z kurczakiem i pieczarkami<b>10zł</b>
+               <br>* Z szynką,salami i zółtym serem <b>10zł</b>
+               <br>* Z brokułami, serem feta, pomidorem,
+               <br>ogóriem zielonym i oliwkami <b>10zł</b>
+               <br>
+               <br><em>Do wszystkich naleśników wytrawnych<br>dodajemy sałatkę i sos. </em> </p>
+         </div>
+         <div class="bagietkiprzekaski">
+            <h1>Przekąski i bagietki</h1>
+            <p>Mała Duża
+               <br>Z szynką i serem
+               <br> <b>5,50zł 11zł</b>
+               <br> Z salami i pieczarkami
+               <br> <b>6zł 12zł</b>
+               <br> Z kurczakiem, serem i kukurydzą
+               <br> <b>7zł 14zł</b>
+               <br> Z gyrosem, papryką i serem
+               <br><b>7zł 14zł</b></p> <img src="grafika/asymmetrical-floral-design-of-spirals.png" alt="wzór" />
+            <p>Zapiekanka<b>5zł</b>
+               <br> Sałatka grecka <b>8zł</b>
+               <br>Sałatka grecka z kurczakiem <b>12zł</b>
+               <br> Hamburger <b>5zł</b>
+               <br> Chessburger <b>5.50zł</b>
+               <br> Langos <b>7zł</b>
+               <br> Nuggetsy(5szt) <b>6zł</b>
+               <br> Frytki <b>4.50zł</b>
+               <br> Szyszki ziemniaczane,
+               <br> bezy ziemniaczane,
+               <br> kulki ziemniaczane
+               <br><b>6zł</b> </p>
+            <hr> </div>
+         <!--menu-->
+         <!--catering-->
+         <div id="catering">
+            <h1>Catering</h1>
+            <p>Nasz lokal specjalizuje się również w przygotowywaniu wszelkiego rodzaju cateringu.
+               <br>Polecamy nasze patery mięsne, z wędlinami i serami oraz patery owocowe.</p>
+            <br> <img class="food" src="grafika/1(1).jpg" alt="jedzenie" /><img class="food" src="grafika/2(2).jpg" alt="jedzenie" /><img class="food" src="grafika/3(3).jpg" alt="jedzenie" /><img class="food" src="grafika/grecka.jpg" alt="jedzenie" /><img class="food" src="grafika/nalesnik.jpg" alt="jedzenie" />
+            <br>
+            <br> </div><img src="grafika/asymmetrical-floral-design-of-spirals.png" alt="wzór" />
+         <div id="imprezykameralne">
+            <!--catering-->
+            <!--imprezy kameralne-->
+            <h1>Imprezy kameralne</h1>
+            <p> W naszej ofercie znajdą Państwo także organizację imprez okolicznościowych. Specjalizujemy się w imprezach kameralnych.
+               <br> Atutem naszej oferty jest
+               <br>-profesjonalna obsługa,
+               <br>-pyszna kuchnia,
+               <br>-możliwość skomponowania indywidualnego menu oraz
+               <br>-przygotowanie dekoracji na różne okazje i w różnym stylu, w zależności od wymagań.
+               <br>W celu uzyskania szczegółowych informacji prosimy kontaktowac się pod numerem telefonu <u><a href="tel:+48728728281">728 728 281</a></u>
+               <br>
+               <br> <img class="sala" src="grafika/stol8.jpg" alt="stol"> <img class="sala" src="grafika/stol7.jpg" alt="s"> <img class="sala" src="grafika/stol5.jpg" alt="stół"> <img class="sala" src="grafika/stol12.jpg" alt="stół"> <img class="sala" src="grafika/stol.jpg" alt="stol"></p>
+            <br> </div>
+      </div>
+      <!--imprezy kameralne-->
+      <!--parallax foto-->
+      <section class="image" style="background-image: url('grafika/pizzaa.jpg');"></section>
+   </section>
+   <!--parallax foto-->
+   <!--kontakt-->
+   <section id="kontakt">
+      <h2>Zadzwoń &nbsp;<a href="tel:+48343284562" >34 328 45 62</a> </h2>Koszęcin ul.Dworcowa 5
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.1111815839795!2d18.839067215232358!3d50.625051382650334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710da9deac58213%3A0xc386b001f9e53ad8!2sDworcowa+5%2C+42-286+Kosz%C4%99cin!5e0!3m2!1spl!2spl!4v1503409504580" allowfullscreen></iframe>
+   </section>
+   <section class="footer">
+      <h4>Pizzeriia Magyarno<br>Koszęcin</h4>
+      <a href="https://www.facebook.com/pizzeriamagyarno/" target="_blank" title="Pizzeria Magyarno"> <img src="grafika/fb.png" alt="facebook" title="facebook" /></a>
+      <a href="tel:+48343284562"><img src="grafika/speech-bubble.png" alt="zadzwoń" title="Zadzwoń" /></a>
+      <br>
+      <br>
+      <br>
+      <p>2017 Design & Realisation
+         <br> <a href="monika.lesz90@gmail.com" title="monika.lesz90@gmail.com">Monika Lesz &copy; </a></p>
+      <div class="icon">Icons made by <a href="https://www.flaticon.com/authors/cole-bemis" title="Cole Bemis">Cole Bemis</a>, <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a>,<a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+   </section>
+   <!--kontakt-->
+   <!--wysuwane okno-->
+   <script>
+      function myFunction() {
+         document.getElementById("myDropdown").classList.toggle("show");
+      }
+      window.onclick = function (event) {
+         if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+               var openDropdown = dropdowns[i];
+               if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+               }
+            }
+         }
+      }
+   </script>
+   <!--wysuwane okno-->
+   <!--mobile nav-->
+   <script>
+      $(document).ready(function () {
+         $(".menu-trigger").click(function () {
+            $('.nav').slideToggle();
+         });
+      });
+   </script>
+   <!--mobile nav-->
+</body>
+
+</html>
