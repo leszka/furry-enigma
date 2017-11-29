@@ -1,0 +1,103 @@
+       @tlo: linear-gradient(-15deg, #5DA4FA, white 50%);
+       @shadow: 6px 16px 15px 0px rgba(175, 175, 175, 0.85);
+       .format() {
+          line-height: 25px;
+          letter-spacing: 1px;
+          color: #404E5D;
+       }
+       
+       body {
+          header {
+             .container {
+                nav {
+                   h1 {
+                      float: left;
+                      color: black;
+                   }
+                   p {
+                      position: inline-block;
+                      float: right;
+                      padding: 8px;
+                      a {
+                         color: black;
+                      }
+                   }
+                }
+             }
+          }
+          main {
+             width: 90%;
+             height: 100%;
+             margin: auto;
+             .first {
+                display: none;
+                margin: auto;
+                float: right;
+                img {
+                   width: 300px;
+                }
+             }
+             .second {
+                display: none;
+                float: left;
+                margin: auto;
+                text-align: center;
+                h2 {
+                   color: black;
+                }
+             }
+          }
+          section {
+             .bg-info {
+                padding: 2em 1em 4em;
+                margin: 15px 15px 15px;
+                width: auto;
+                height: auto;
+                text-align: center;
+                line-height: 25px;
+             }
+             .container {
+                .row {
+                   .col-lg-4 {
+                      border-right: 1px dotted lightgray;
+                      padding: 10px;
+                      text-align: center;
+                      letter-spacing: 1px;
+                      line-height: 25px;
+                   }
+                }
+             }
+          }
+       }
+       
+       .container-fluid {
+          .row {
+             .col-lg-12 {
+                text-align: center;
+                letter-spacing: 1px;
+                line-height: 25px;
+             }
+             iframe {
+                width: 100%;
+                height: 60%;
+             }
+          }
+       }
+       
+       footer {
+          padding: 2em 1em 4em;
+          margin: 5px 5px 5px;
+          overflow: hidden;
+          -webkit-flex-direction: column;
+          flex-direction: column;
+          -webkit-align-items: center;
+          align-items: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          text-align: center;
+          letter-spacing: 1px;
+          line-height: 25px;
+          .col-lg-12 {
+             background: url(grafika/shattered.png);
+          }
+       }
