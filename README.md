@@ -1,2 +1,2 @@
 # furry-enigma
-first repository
+This is my first repository. It contain my first webside named pizzeriamagyarno.pl.
